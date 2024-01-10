@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <!-- Navigation on site-->
+    <nav class="navbar navbar-ligh bg-light">
+        <a href="#" class="navbar-brand">Managment products App</a>
+    </nav>
+
+    <div class="container">
+        <div class="row pt-5">
+            <div id="App" class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Add a Product</h4>
+                    </div>
+                    <form class="card-body" id="product-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Product Name" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea type="text" class="form-control" id="description" placeholder="Product Description"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="price" step="0.01" placeholder="Product Price" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="year" min="1900" max="2099" value=2024 />
+                        </div>
+
+                        <input type="submit" class="btn btn-primary btn-block" value="Save">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-8" id="product-list"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="App.js"></script>
+</body>
+</html>
