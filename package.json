@@ -1,0 +1,23 @@
+{
+  "name": "managment-products-app",
+  "version": "1.0.0",
+  "description": "Application for managment products written with html, css and javascript version 1.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mihu89/managment-products-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mihu89/managment-products-js/issues"
+  },
+  "homepage": "https://github.com/Mihu89/managment-products-js#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
