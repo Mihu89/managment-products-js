@@ -81,5 +81,11 @@ document.getElementById("product-form")
 });
 
 // event listener for delete product from the list
-
+document.getElementById("product-list")
+.addEventListener("click", function(e){
+    const ui = new UI();
+    console.log(e.target);
+    ui.deleteProduct(e.target);
+    e.preventDefault();
+})
 
